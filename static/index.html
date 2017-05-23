@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome page</title>
+    <!--Cargando los estilos d Boostrap-->
+    <link
+            rel="stylesheet"
+            href="vendor/bootstrap/dist/css/bootstrap.min.css">
+    <!--Cargando el estilo-->
+    <link
+        rel"stylesheet"
+        href="vendor/bootstrap/dist/css/bootstrap-theme.min.css">
+    <!--Cargando estilos-->
+    <link rel="stylesheet" href="css/site.css">
+    <!-- Cargando los estilos de sweet alert -->
+    <link rel="stylesheet" href="vendor/sweetalert/dist/sweetalert.css">
+
+</head>
+
+<body style="background: blueviolet">
+
+        <div class="bs-example">
+            <form
+                action="/"
+                method="POST"
+                style="padding-top: px80;"
+                class="form-horizontal">
+                <div class="form-group">
+                    <label for="" class="control-label col-xs-5">
+                        INGRESE SUS DATOS
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label 
+                    for="inputNombre" 
+                    class="control-label col-xs-5">
+                    Nombre del condominio</label>
+                    <div class="col-xs-2">
+                        <input 
+                        class="form-control"
+                        type="text"
+                        name="nombre"
+                        id="inputNombre"
+                        placeholder="Nombre">
+                    </div>
+                    </div>
+
+                    <!---->
+
+                     <div class="form-group">
+                    <label 
+                    for="inputApellido" 
+                    class="control-label col-xs-2">
+                    Apellidos del condominio</label>
+                    <div class="col-xs-5">
+                        <input 
+                        class="form-control"
+                        type="text"
+                        name="apellidos"
+                        id="inputApellidoe"
+                        placeholder="apellidos">
+                    </div>
+                    </div>
+
+                    <!---->
+                     <div class="form-group">
+                    <label 
+                    for="inputDepto" 
+                    class="control-label col-xs-2">
+                    Numero de departamento</label>
+                    <div class="col-xs-5">
+                        <input 
+                        class="form-control"
+                        type="text"
+                        name="depto"
+                        id="inputDepto"
+                        placeholder="Num depto">
+                    </div>
+                    </div>
+                    
+                <!---->
+                     <div class="form-group">
+                    <label 
+                    for="inputPassword" 
+                    class="control-label col-xs-2">
+                    Password</label>
+                    <div class="col-xs-5">
+                        <input 
+                        class="form-control"
+                        type="password"
+                        name="password"
+                        id="inputPassword"
+                        placeholder="Ingrese password"
+                        maxlength="8">
+                    </div>
+                    </div>
+                    <!-- Seccion de envio -->
+                    <div class="form-group">
+                        <div class="col-xs-offset-2 col-xs-10">
+                            <input
+                                type="submit"
+                                class="btn btn-primary"
+                                value="ENVIAR"
+                    </div>
+
+            </form>
+        <!--Cargando a jquery-->
+        <script src="vendor/jquery/dist/jquery.min.js"></script>
+        <!--Cargando bootstrap-->
+        <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+      
+        <!-- Cargando script de sweet alert-->
+        <script src="vendor\sweetalert\dist\sweetalert.min.js">
+
+        </script>
+        <!-- cargando script-->
+        <script src='js/site.js'></script>
+</body>
+
+</html>
